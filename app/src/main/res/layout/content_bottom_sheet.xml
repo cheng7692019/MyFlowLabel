@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:chipcloud="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomSheetLayout"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    chipcloud:selectedColor="#56abe4"
+    android:padding="@dimen/activity_vertical_margin"
+    chipcloud:behavior_hideable="true"
+    chipcloud:behavior_peekHeight="60dp"
+    chipcloud:layout_behavior="@string/bottom_sheet_behavior">
+
+    <com.adroitandroid.chipcloud.ChipCloud
+        android:id="@+id/chip_cloud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        chipcloud:deselectedColor="@color/deselected_color"
+        chipcloud:deselectedFontColor="@color/deselected_font_color"
+        chipcloud:selectedColor="@color/selected_color"
+        chipcloud:selectedFontColor="@color/selected_font_color"
+        chipcloud:deselectTransitionMS="500"
+        chipcloud:selectTransitionMS="750"
+        chipcloud:selectMode="single"
+        chipcloud:allCaps="true"
+        chipcloud:gravity="left"
+        chipcloud:minHorizontalSpacing="32dp"
+        chipcloud:verticalSpacing="16dp"
+        chipcloud:textSize="14sp"/>
+
+    <com.adroitandroid.chipcloud.ChipCloud
+        android:id="@+id/chip2_cloud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chip_cloud"
+        chipcloud:deselectedColor="@color/deselected_color"
+        chipcloud:deselectedFontColor="@color/deselected_font_color"
+        chipcloud:selectedColor="@color/selected_color"
+        chipcloud:selectedFontColor="@color/selected_font_color"
+        chipcloud:deselectTransitionMS="500"
+        chipcloud:selectTransitionMS="750"
+        chipcloud:selectMode="single"
+        chipcloud:allCaps="true"
+        chipcloud:gravity="left"
+        chipcloud:minHorizontalSpacing="32dp"
+        chipcloud:verticalSpacing="16dp"
+        chipcloud:textSize="14sp"/>
+
+</RelativeLayout>
