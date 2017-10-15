@@ -5,7 +5,7 @@ Streaming layout of the label view, can be used for radio, multi-election. The l
 
 ![](https://github.com/cheng7692019/MyFlowLabel/blob/master/preview/Screenshot_20171015-220205.png)  
 
-#video
+##video
 
 ![](https://github.com/cheng7692019/MyFlowLabel/blob/master/preview/20171015220853.mp4)  
 
