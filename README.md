@@ -28,13 +28,18 @@ Streaming layout of the label view, can be used for radio, multi-election. The l
 ```
 # Attributes
 
-|Attribute|Format|Description|                                                          
-|-------|--------|-----------|
-| gravity|left、center、right|Selected position, left middle right|                                 
-| deselectTransitionMS|300| From the selected time to not select the color change|
-| deselectedColor|#ffffff|Unselected background color|
-| deselectedFontColor|#000000|Unselected font color|
-| selectMode|single、multi、required|Select the pattern|
+| Attribute                | Format                       | Description                                                                                                                                          |
+|--------------------------|------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| gravity|left、center、right|Selected position, left middle right
+|                                 
+| deselectTransitionMS|300| From the selected time to not select the color change
+|
+| deselectedColor|#ffffff|Unselected background color
+|
+| deselectedFontColor|#000000|Unselected font color
+|
+| selectMode|single、multi、required|Select the pattern
+|
    
 # Licence
 Copyright 2016 cheng7692019
