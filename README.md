@@ -25,11 +25,11 @@ Streaming layout of the label view, can be used for radio, multi-election. The l
                 app:selectedFontColor="@color/red"
                 app:textSize="14sp"
                 app:verticalSpacing="16dp" />
-
+```
 ## Attributes
 
-| Attribute                | Format                       | Description                                                                                                                                          |
-|--------------------------|------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Attribute                | Format                       | Description                        |                                                          
+|--------------------------|------------------------------
 | gravity                  | left、center、right           | Selected position, left middle right                                    
 | deselectTransitionMS     | 300                           | From the selected time to not select the color change  
 | deselectedColor          | #ffffff                       |Unselected background color
