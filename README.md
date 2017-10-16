@@ -4,7 +4,7 @@ Streaming layout of the label view, can be used for radio, multi-election. The l
 
 ![image](https://github.com/cheng7692019/MyFlowLabel/blob/master/preview/20171015_224814.gif)  
 
-## Usage
+# Usage
 
 ```xml
    <mystickyactivity.chen.com.mylabel.LabelGroup
@@ -26,15 +26,15 @@ Streaming layout of the label view, can be used for radio, multi-election. The l
                 app:textSize="14sp"
                 app:verticalSpacing="16dp" />
 ```
-## Attributes
+# Attributes
 
 |Attribute|Format|Description|                                                          
 |-------|--------|-----------|
-| gravity| left、center、right|Selected position, left middle right                                    
-| deselectTransitionMS| 300| From the selected time to not select the color change  
-| deselectedColor|#ffffff|Unselected background color
-| deselectedFontColor|#000000|Unselected font color
-| selectMode|single、multi、required|Select the pattern 
+| gravity|left、center、right|Selected position, left middle right|                                 
+| deselectTransitionMS|300| From the selected time to not select the color change|
+| deselectedColor|#ffffff|Unselected background color|
+| deselectedFontColor|#000000|Unselected font color|
+| selectMode|single、multi、required|Select the pattern|
    
 # Licence
 Copyright 2016 cheng7692019
